@@ -16,14 +16,9 @@
     <h1>AI Assistant</h1>
     <p>
       Hello! I can only answer questions related to government orders, local
-<<<<<<< HEAD
       news, services, articles, Rights, Opportunities, or laws.
     </p>
     <p>Your preferred language is: <strong>{{ preferred_language }}</strong></p>
-=======
-      news, services, articles, Rights, Opportunities or laws.
-    </p>
->>>>>>> 7168ff048436f537f95117ebf62ac815f229d9e0
     <form id="chatForm">
       <label for="question">Ask a question:</label>
       <textarea id="question" name="question" required></textarea>
@@ -42,11 +37,7 @@
             headers: {
               "Content-Type": "application/json",
             },
-<<<<<<< HEAD
             body: JSON.stringify({ question: question }),
-=======
-            body: JSON.stringify({question: question }),
->>>>>>> 7168ff048436f537f95117ebf62ac815f229d9e0
           })
             .then((response) => response.json())
             .then((data) => {
