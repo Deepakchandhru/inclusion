@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>News Portal</title>
+=======
+    <title>News</title>
+>>>>>>> 7168ff048436f537f95117ebf62ac815f229d9e0
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,13 +20,20 @@
             max-width: 800px;
             margin: 0 auto;
         }
+<<<<<<< HEAD
         h1, h2 {
             text-align: center;
+=======
+        h1 {
+            text-align: center;
+            font-size: 28px;
+>>>>>>> 7168ff048436f537f95117ebf62ac815f229d9e0
             color: #444;
         }
         form {
             margin-bottom: 20px;
             display: flex;
+<<<<<<< HEAD
             flex-direction: column;
             align-items: center;
         }
@@ -34,6 +45,21 @@
             max-width: 400px;
         }
         button {
+=======
+            justify-content: center;
+        }
+        input[type="text"] {
+            padding: 10px;
+            font-size: 18px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            margin-right: 10px;
+            width: 50%;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+>>>>>>> 7168ff048436f537f95117ebf62ac815f229d9e0
             background-color: #4CAF50;
             color: white;
             border: none;
@@ -43,11 +69,45 @@
         button:hover {
             background-color: #45a049;
         }
+<<<<<<< HEAD
+=======
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #ffffff;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #1e90ff;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+>>>>>>> 7168ff048436f537f95117ebf62ac815f229d9e0
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to the News Portal</h1>
+<<<<<<< HEAD
         
         <!-- Signup Form -->
         <h2>Signup</h2>
@@ -56,6 +116,11 @@
             <input type="email" name="email" placeholder="Enter your email" required>
             <label for="language">Select your preferred language:</label>
             <select name="language" id="language" required>
+=======
+        <form method="post" action="/prefer">
+            <label> Select your preferred language : </label>
+            <select name="language" id="language">
+>>>>>>> 7168ff048436f537f95117ebf62ac815f229d9e0
                 <option value="en">English</option>
                 <option value="ta">Tamil</option>
                 <option value="te">Telugu</option>
@@ -73,6 +138,7 @@
                 <option value="bn">Bengali</option>
                 <option value="kn">Kannada</option>
                 <option value="pa">Punjabi</option>
+<<<<<<< HEAD
             </select>
             <button type="submit">Signup</button>
         </form>
@@ -86,3 +152,12 @@
     </div>
 </body>
 </html>
+=======
+              </select>
+              
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+>>>>>>> 7168ff048436f537f95117ebf62ac815f229d9e0
